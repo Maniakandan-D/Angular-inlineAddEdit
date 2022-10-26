@@ -7,7 +7,7 @@ export default {
     format: 'umd',
     sourcemap: true,
     file: 'dist/bundles/ngx-material-table.umd.js',
-    name: 'ng.ngx-material-table',
+    name: 'ngx-material-table',
   },
   plugins: [
     resolve({
