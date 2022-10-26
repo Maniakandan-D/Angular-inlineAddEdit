@@ -1,0 +1,18 @@
+<h1>Reactive form example:</h1>
+
+<app-person-list-reactive-forms [personList]="personList" #reactiveFormsList
+                                (personListChange)="personListChanged($event)"
+></app-person-list-reactive-forms>
+
+<h1>Reactive form example (async validator):</h1>
+
+<app-person-list-async-reactive-forms [personList]="personList" #reactiveFormsListAsync
+                                      (personListChange)="personListChanged($event)"
+></app-person-list-async-reactive-forms>
+
+
+<h1>Template driven example:</h1>
+
+<app-person-list-template-driven [personList]="personList" #templateDrivenList
+                                 (personListChange)="personListChanged($event)"
+></app-person-list-template-driven>
